@@ -10,20 +10,23 @@ import Home from './Pages/Home';
 import About from './Pages/About';
 
 
+
+
 function App() {
 
   return (
-<>
-    <NavBar/>
-    <Routes>
-    <Route path="/">
-      <Route index element = {<Home/>}/>
-      <Route path="about" element = {<About/>}/>
-    </Route>
-  </Routes>  
+    <>
+      <NavBar />
 
-     <Footer/>
-</>
+      <Routes>
+        <Route path="/">
+          <Route index element={<Home />}/>
+          <Route path="about" element={<About/>} />
+        </Route>
+      </Routes>
+
+      <Footer />
+    </>
   );
 }
 

@@ -1,0 +1,42 @@
+.aboutpage{
+    background-color: cadetblue;
+    color: #fff;
+   
+    h4{
+      margin: 0;
+      padding: 70px 0 0 0;
+    }
+
+    .aboutpagelayout{
+      display: flex;
+
+      p{
+        margin: 0;
+      }
+  
+      .aboutus{
+        padding-right:20px;
+        padding-left: 10px;
+       
+      }
+      .react{
+        padding-right:20px;
+        padding-left: 10px;
+      }
+      .components{
+        padding-right:20px;
+        padding-left: 10px;
+      }
+    }
+    .testimonial{
+      h2{
+        margin: 0;
+        padding-top: 50px;
+        text-align: center;
+        padding-bottom: 20px;
+      }
+    }
+   
+  }
+  
+ 

@@ -1,0 +1,17 @@
+.homepage{
+  background-color: rgb(141, 50, 179);
+  color: #fff;
+  display:flex ;
+  justify-content: flex-start;
+  p{
+    margin: 0;
+  }
+  .homePgLayout{
+   padding: 70px;
+   display: flex;
+   justify-content: center;
+  }
+  .sideBar{
+    background-color: rgb(62, 92, 239);
+  }
+}
